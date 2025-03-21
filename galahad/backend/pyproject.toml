@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "galahad-ai"
+version = "0.1.0"
+description = "Galahad AI System"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.109.0"
+langchain = "^0.1.0"
+langgraph = "^0.0.10"
+autogen = "^0.2.0"
+pydantic = "^2.5.3"
+uvicorn = "^0.27.0"
+python-dotenv = "^1.0.0"
+sqlalchemy = "^2.0.25"
+qdrant-client = "^1.7.0"
+asyncpg = "^0.29.0"
